@@ -1,0 +1,8 @@
+QUESTION 4:
+
+If Questioned 3 was changed so that I only had to keep track of one type of brackets it would Greatly simplify the solution.
+I would just use a single loop to process the string rather than have any recursion and just keep a running counter.
+Every time I hit an open bracket I add one.
+Every time I hit a close bracket I subtract one.
+If the total at the end is Not zero or ever goes below zero than the brackets do not match
+Very simple
